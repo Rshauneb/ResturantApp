@@ -1,0 +1,33 @@
+#randomQuote{
+  padding: 250px 0;
+
+  // height: 450px;
+  // background-color: red;
+  // background-image: url("https://images.pexels.com/photos/691114/pexels-photo-691114.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-position: center;
+  background-size: cover;
+
+
+  h1{
+    color: white;
+    font-family: $displayFont;
+    font-size: 3.5rem;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 50px;
+    background: rgba(0,0,0,.2);
+    padding: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .author{
+    color: white;
+    font-family: $displayFont;
+    font-size: 1rem;
+    font-weight: 300;
+    text-transform: capitalize;
+    text-align: center;
+    display: block;
+  }
+
+}

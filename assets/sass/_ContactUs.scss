@@ -1,0 +1,47 @@
+#ContactUS{
+  padding: 100px 0;
+
+  background-image: url("https://images.pexels.com/photos/1323712/pexels-photo-1323712.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-position: center;
+  background-size: cover;
+
+  .comp-title{
+
+  }
+
+  .box{
+    background-color: #fff;
+    padding: 50px;
+    .title{
+      font-family: $displayFont;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+
+
+    h6{
+      font-size: .9rem;
+      font-weight: 600;
+      color: #000;
+      line-height: 1.7;
+      text-transform: uppercase;
+    }
+
+    p {
+     text-transform: uppercase;
+      font-weight: 400;
+      strong{
+        color: #000;
+        font-weight: 600;
+      }
+      a{
+        color: $pColor;
+        text-decoration: none;
+        font-weight: 600;
+      }
+      a:hover{
+        color: $red;
+      }
+    }
+  }
+}

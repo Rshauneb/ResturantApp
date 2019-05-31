@@ -1,0 +1,13 @@
+#Review{
+  background-color:#fff;padding:100px 0
+  }
+  #Review .right{
+    background-image:url("https://i.postimg.cc/RCLf7ZfG/cafe.jpg");
+    background-color:red;width:50%;height:450px;background-size:cover
+  }
+    #Review .left .review{
+      font-size:4rem;
+      text-transform:uppercase;
+      font-weight:300;
+      line-height:1.5;
+    }

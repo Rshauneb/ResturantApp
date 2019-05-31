@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Arbutus+Slab|Karla:400,700');
+@import "variables";
+@import "reset";
+@import "grid";
+@import "global";
+@import "header";
+@import "TopImg";
+@import "OurStory";
+@import "SpecialMenu";
+@import "RandomQuote";
+@import "Review";
+@import "ContactUS";
+@import "Footer";
+
+body {
+  font-family: $textFont;
+    // -ms-overflow-style: none;  // IE 10+
+    // overflow: -moz-scrollbars-none;  // Firefox
+}
+body::-webkit-scrollbar {
+    // display: none;  // Safari and Chrome
+}
+
+.container{
+  // background-color:  red;
+}
+
+// Fonts
+// font-family: 'Arbutus Slab', serif;
+// font-family: 'Karla', sans-serif;

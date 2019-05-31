@@ -1,0 +1,74 @@
+#Review{
+  background-color: #fff;
+  padding: 100px 0;
+
+  .right{
+    // background-image: url("https://images.pexels.com/photos/105066/pexels-photo-105066.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    // background-image: url("https://images.pexels.com/photos/390403/pexels-photo-390403.jpeg?auto=compress&cs=tinysrgb&h=350");
+    width: 50%;
+    // height: 450px;
+    background-size: cover;
+    // background-color: red;
+    margin-right: 10%;
+
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .left{
+    // padding: 50px 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+    // background-color: green;
+    width: 40%;
+
+    p{
+      text-align: right;
+      letter-spacing: 4.5px;
+    }
+
+    .rev-title{
+      text-align: right;
+      font-family: $displayFont;
+      font-size: 2rem;
+    }
+
+    .review{
+      font-family: $displayFont;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      font-weight: 300;
+      line-height: 1.2;
+      text-align: right;
+    }
+
+    .review-person{
+      font-family: $textFont;
+      font-size: 1.5rem;
+      font-weight: 300;
+      text-align: center;
+      padding-top: 50px;
+      text-align: right;
+      text-transform: capitalize;
+    }
+
+    .arrows{
+      text-align: right;
+      padding-top: 10px;
+      color: #adadad;
+      font-size: 2rem;
+      cursor: pointer;
+
+      .fa-angle-left{
+        margin-right: 35px;
+      }
+      .fa-angle-left.ready,
+      .fa-angle-right.ready{
+        color: #000;
+      }
+
+    }
+  }
+}
